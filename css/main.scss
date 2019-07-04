@@ -1,0 +1,136 @@
+body
+  font: 100% Roboto, sans-serif
+  color: #333
+
+h1
+  font-size: 72px
+
+h2
+  font-size: 66px
+
+h3
+  font-size: 60px
+
+h4
+  font-size: 54px
+
+.main-container
+  width: 100%
+  margin-top: 25px
+
+.header-section
+  margin-left: 25px
+
+.body-section
+  min-height: 1200px
+
+.section-title
+  margin-left: 75px
+
+.section-body
+  text-align: center
+
+.row-wrapper
+  width: 100%
+  height: 200px
+  text-align: center
+  padding-top: 50px
+  padding-left: 100px
+
+.top-score-number
+  width: 100px
+  height: 100px
+  border: 10px solid #008000
+  border-radius: 25%
+  font-size: 72px
+  padding: 50px
+  color: #008000
+  font-weight: bold
+  float: left
+
+.score-span
+  padding-left: 50px
+  font-size: 72px
+  float: left
+
+.date-span
+  font-size: 36px
+  color: #A9A9A9
+
+.result-span
+  width: 100%
+  font-weight: bold
+
+.image-section
+  padding: 25px
+
+.answers-section
+  padding-top: 25px
+  height: 150px
+  color: black
+  > button
+    text-align: left
+    width: 75%
+    background-color: #fff
+    border-radius: 25px
+    border: 5px solid #FFA500
+    font-size: 54px
+    padding: 25px
+    cursor: pointer
+    &:hover
+      background-color: #FFA500
+      color: #fff
+      cursor: pointer
+
+.quiz-result
+  font-size: 112px
+
+.footer-section
+  margin-left: 15px
+  text-align: center
+
+.footer
+  padding-top: 50px
+  display: inline-block
+
+.footer-top-padding
+  padding-top: 500px
+
+.footer > span
+  width: 500px
+  font-size: 54px
+  padding: 25px
+  border-radius: 25px
+  cursor: pointer
+  > img
+    vertical-align: middle
+    padding-bottom: 10px
+
+.start-quiz
+  border: 3px solid #008000
+
+.home-button
+  background-color: #0000FF
+  border: 3px solid #0000FF
+  color: #fff
+
+.finish-quiz
+  background-color: #fff
+  border: 5px solid #0000FF
+  color: #0000FF
+  font-weight: bold
+
+.filter-white
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(114deg) brightness(107%) contrast(103%)
+
+.filter-green
+  filter: invert(20%) sepia(100%) saturate(4727%) hue-rotate(107deg) brightness(99%) contrast(108%)
+
+.filter-orange
+  filter: invert(67%) sepia(23%) saturate(3960%) hue-rotate(360deg) brightness(102%) contrast(106%)
+
+.filter-red
+  filter: invert(32%) sepia(96%) saturate(5445%) hue-rotate(350deg) brightness(89%) contrast(136%)
+
+.filter-blue
+  filter: invert(8%) sepia(100%) saturate(7454%) hue-rotate(248deg) brightness(95%) contrast(138%)
